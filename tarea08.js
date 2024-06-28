@@ -56,7 +56,7 @@ console.log("Saldo despues del retiro: "+miCuenta.consultarSaldo());  // Saldo d
 
 //A continuacion se presenta un ejemplo de como manejar excepciones en JavaScript utilizando el bloque try...catch
 try { //El codigo dentro de try se ejecuta. Si no hay errores, el bloque catch se omite.
-    miCuenta.depositar (100); // Error: miCuenta.depositaris not a function
+    miCuenta.depositar (100); // Error: miCuenta.depositar is not a function
 } catch (e) { // el parametro "e"es una referencia al objeto de excepcion que fue lanzado
     console.log(e.message);  // message es la propiedad del objeto e, contiene una string describiendo el error
 }
